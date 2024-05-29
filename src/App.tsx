@@ -1,5 +1,6 @@
-import Router from "./Router";
+
 import { createGlobalStyle } from "styled-components";
+import ToDoList from "./ToDoList";
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
@@ -67,7 +68,8 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Router />
+      <ToDoList/>
+
     </>
   );
 }
